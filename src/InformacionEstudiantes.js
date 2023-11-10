@@ -46,4 +46,4 @@ const infoEstudiante1 = {
   };
 
 
-  const infoEstudiantes = [infoEstudiante1, infoEstudiante2, infoEstudiante3, infoEstudiante4];
+  export const infoEstudiantes = [infoEstudiante1, infoEstudiante2, infoEstudiante3, infoEstudiante4];

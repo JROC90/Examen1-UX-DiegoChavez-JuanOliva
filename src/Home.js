@@ -1,16 +1,19 @@
 import React from 'react';
-const Home = ({ subject }) => {
-    return (
-        <div>
-            <script src='./InformacionPadres.js'>
-                
-            alert(infoPadres[0].titulo)
-                </script>    
-          
+import { infoEstudiantes } from './InformacionEstudiantes';
+
+const Home = () => {
+  return (
+    <div>
+      {/* Use the infoEstudiantes array in your component */}
+      {infoEstudiantes.map((info, index) => (
+        <div key={index}>
+          <h2>{info.titulo}</h2>
+          <p>{info.contenido}</p>
+          <img src={info.imagen} alt={`Imagen ${index}`} />
         </div>
-
-
-    );
+      ))}
+    </div>
+  );
 };
 
 export default Home;
