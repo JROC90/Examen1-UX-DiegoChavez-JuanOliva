@@ -1,0 +1,12 @@
+.Contactanos{
+    display: flex;
+    background-color: red;
+    color: white;
+    padding: 1.5 vw;
+}
+
+.images{
+width: 25 px;
+height: auto;
+
+}
