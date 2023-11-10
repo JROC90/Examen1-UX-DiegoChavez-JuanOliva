@@ -1,0 +1,22 @@
+.Navbar{
+    display: flex;
+    background-color: darkblue;
+    padding: 2vw;
+
+}
+
+.Navbar-item{
+    flex: 1;
+ 
+}
+
+.Navbar-links{
+    color: white;
+    text-decoration: none;
+}
+
+.Navbar-links:hover,
+.Navbar-links:active {
+  text-decoration: underline; 
+  color: #007acc; 
+}

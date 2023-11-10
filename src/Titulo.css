@@ -1,0 +1,6 @@
+.titulo{
+    display: flex;
+}
+.titulo-items{
+    flex: 1;
+}
