@@ -8,6 +8,7 @@ import Home from './Home';
 
 
 function App() {
+  
   const [opcionSeleccionada, setOpcion] = useState(0);
   const [opcionPadres, Opcion2] = useState (0);
   return (
@@ -15,7 +16,7 @@ function App() {
       <Titulo />
       <Navbar setOpcion={setOpcion} />
       {opcionSeleccionada === 1 && <h2>Apretaste 1</h2>}
-      <Home> </Home>
+      <Home opcion={setOpcion} />
       <TextoContactanos></TextoContactanos>
     </div>
   );

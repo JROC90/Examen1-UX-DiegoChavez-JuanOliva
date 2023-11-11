@@ -55,4 +55,4 @@ const informacionCienciasComputacionales1 = {
     imagen: "https://example.com/imagen4.jpg"
   };
 
-  const infoPadres = [informacionCienciasComputacionales1 , informacionCienciasComputacionales2, informacionCienciasComputacionales3 , informacionCienciasComputacionales4];
+  export const infoPadres = [informacionCienciasComputacionales1 , informacionCienciasComputacionales2, informacionCienciasComputacionales3 , informacionCienciasComputacionales4];
