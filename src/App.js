@@ -9,14 +9,14 @@ import Home from './Home';
 
 function App() {
   const [opcionSeleccionada, setOpcion] = useState(0);
-
+  const [opcionPadres, Opcion2] = useState (0);
   return (
     <div className="App">
       <Titulo />
       <Navbar setOpcion={setOpcion} />
       {opcionSeleccionada === 1 && <h2>Apretaste 1</h2>}
+      <Home> </Home>
       <TextoContactanos></TextoContactanos>
-      <Home> Hola Mundo</Home>
     </div>
   );
 }

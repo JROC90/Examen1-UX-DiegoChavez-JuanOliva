@@ -8,7 +8,7 @@ const Home = () => {
       {infoEstudiantes.map((info, index) => (
         <div key={index}>
           <h2>{info.titulo}</h2>
-          <p>{info.contenido}</p>
+          <p className='texto'>{info.contenido}</p>
           <img src={info.imagen} alt={`Imagen ${index}`} />
         </div>
       ))}

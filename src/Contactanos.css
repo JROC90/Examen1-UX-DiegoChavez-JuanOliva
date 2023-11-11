@@ -6,7 +6,13 @@
 }
 
 .images{
-width: 25 px;
+width: 50px;
 height: auto;
-
+margin-right: 2.5vw;
+border: 1px solid red
 }
+.texto{
+    margin-right: 2.5vw;
+}
+
+
