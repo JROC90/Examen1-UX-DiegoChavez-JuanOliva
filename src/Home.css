@@ -1,4 +1,15 @@
 .texto{
-    margin-left: 25vw;
+    margin-left: 18vw;
+    margin-right: 15vw;
+   
+    
+}
 
+.titulo{
+    margin-left: 35vw;
+    margin-right: 15vw;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-weight: bold;
 }

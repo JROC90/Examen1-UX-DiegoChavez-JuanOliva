@@ -3,11 +3,18 @@
 const infoEstudiante1 = {
     titulo: "Magia de Git para Principiantes",
     contenido:
-      "¡Hola! ¿Listo para sumergirte en el mundo mágico de Git? Git es como " +
-      "una máquina del tiempo para tu código. Aprende a realizar un seguimiento " +
-      "de cambios, colaborar con compañeros y salvarte de desastres de codificación. " +
-      "Abraza la magia de Git y pronto estarás tejiendo hechizos con ramas y " +
-      "commits como un mago del código.",
+      "¡Bienvenido a nuestro blog!"+
+      "Explorar el fascinante mundo de la Experiencia de Usuario (UX) es un viaje emocionante, y estamos emocionados de tenerte a bordo. En nuestro blog, nos sumergimos en el universo del diseño centrado en el usuario, la usabilidad, y las prácticas que hacen que las interacciones digitales sean excepcionales."+
+      
+     " Descubre artículos perspicaces sobre las últimas tendencias en UX, consejos prácticos para mejorar la usabilidad de tus proyectos y entrevistas exclusivas con expertos de la industria. Nuestro objetivo es inspirarte a crear experiencias significativas y efectivas para tus usuarios." +
+      
+      "Ya seas un diseñador experimentado, un desarrollador curioso o simplemente alguien apasionado por la tecnología y la usabilidad, encontrarás contenido relevante y perspicaz que elevará tus habilidades en UX." +
+      
+      "¡Prepárate para sumergirte en artículos informativos, descubrir las mejores prácticas de diseño y explorar el emocionante mundo de la UX con nosotros!" +
+      
+      "Gracias por unirte a nuestra comunidad. ¡Vamos a explorar juntos el arte de crear experiencias excepcionales!" +
+      
+      "¡Bienvenido nuevamente!",
     imagen: "https://example.com/imagen1.jpg"
   };
   
