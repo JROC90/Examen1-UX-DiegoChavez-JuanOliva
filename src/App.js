@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import Titulo from './titulo';
 import TextoContactanos from './Contactanos';
 import Home from './Home';
-
+import UncontrolledExample from './carousel';
 
 function App() {
   
@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       <Titulo />
       <Navbar setOpcion={setOpcion} />
-      {opcionSeleccionada === 1 && <h2>Apretaste 1</h2>}
-      <Home opcion={setOpcion} />
+      {opcionSeleccionada === 1 && <UncontrolledExample></UncontrolledExample>}
+      <Home opcion={opcionSeleccionada} />
       <TextoContactanos></TextoContactanos>
     </div>
   );

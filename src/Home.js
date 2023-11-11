@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { infoEstudiantes } from './InformacionEstudiantes';
 import { infoPadres } from './InformacionPadres';
-const Home = () => {
+const Home = (opcion) => {
+  const [infoToShow, setInfoToShow] = useState([]);
+
+  useEffect (() => {
+    // Update infoToShow based on the selected option
+    if (opcion === 0) {
+      setInfoToShow(infoEstudiantes.slice(0, 1)); // Display only the first element
+    }
+    // Add more conditions for other options if needed
+
+  }, [opcion]);
   return (
     <div>
       {/* Use the infoEstudiantes array in your component */}
