@@ -6,7 +6,7 @@ const Titulo= () => {
             <img src="\images\Imagentitulo.jpg" alt="Imagen no encontrada" />
         </div>
         <div className='titulo-items'>
-            <h1>
+            <h1 style={{marginTop :'6vh'}}>
                 Nuestro examen
             </h1>
         </div>

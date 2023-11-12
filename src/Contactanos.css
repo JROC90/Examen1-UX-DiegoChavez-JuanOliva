@@ -12,12 +12,13 @@ margin-right: 2.5vw;
 border: 1px solid red
 }
 .texto{
-    margin-right: 2.5vw;
+    margin-right: 1.5vw;
 }
 
 .images2{
-    width:30vw;
-height: 25vh;
+    width:45vw;
+   height: 45vh;
+   object-fit: cover;
 
 }
 .Carousel{

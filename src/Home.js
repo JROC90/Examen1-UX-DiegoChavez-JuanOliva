@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { infoEstudiantes } from './InformacionEstudiantes';
 import { infoPadres } from './InformacionPadres';
 import './Home.css'
-const Home = (opcion) => {
+const Home = ({opcion, esEstudiante}) => {
   const [infoToShow, setInfoToShow] = useState([]);
 
   useEffect (() => {
@@ -16,15 +16,15 @@ const Home = (opcion) => {
   return (
     <div>
       {/* Use the infoEstudiantes array in your component */}
-      {infoEstudiantes.map((info, index) => (
-        <div key={index}>
-          <h2 className='titulo'>{info.titulo}</h2>
+      {esEstudiante && infoEstudiantes.map((info, index) => (
+        <div id="blogs" key={index}>
+          <h2  style={{ textAlign: 'center' }} className='titulo'>{info.titulo}</h2>
           <p className='texto'>{info.contenido}</p>
           <img src={info.imagen} alt={`Imagen ${index}`} />
         </div>
       ))}
         {/* Use the infoEstudiantes array in your component */}
-        {infoPadres.map((info, index) => (
+        {!esEstudiante && infoPadres.map((info, index) => (
         <div key={index}>
           <h2 className='titulo'>{info.titulo}</h2>
           <p className='texto'>{info.contenido}</p>

@@ -21,7 +21,7 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src='\images\img2.jpg' className='images2' alt='Not Found'></img>
+      <img src='\images\img3.png' className='images2' alt='Not Found'></img>
         <Carousel.Caption>
           <h3></h3>
           <p>

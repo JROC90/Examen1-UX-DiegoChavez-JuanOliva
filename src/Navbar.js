@@ -1,7 +1,13 @@
-
+import React from 'react';
 import './Navbar.css';
 
-const Navbar = ({ setOpcion }) => {
+const Navbar = ({ setOpcion, esEstudiante, setEsEstudiante }) => {
+
+  const audiencia = () => { 
+    // setOpcion(4);
+    setEsEstudiante(!esEstudiante);
+  };
+
   return (
     <nav className="Navbar">
       <div className='Navbar-item'>
@@ -21,7 +27,7 @@ const Navbar = ({ setOpcion }) => {
       </div>
 
       <div className='Navbar-item'>
-        <label className='Navbar-links' onClick={() => setOpcion(4)}> Cambiar a padre </label>
+        <label className='Navbar-links' onClick={audiencia}> {esEstudiante?"Ver como: Padre":"Ver como: Estudiante"} </label>
       </div>
     </nav>
   );
