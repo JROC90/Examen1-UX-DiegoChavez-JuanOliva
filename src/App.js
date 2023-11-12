@@ -6,6 +6,7 @@ import TextoContactanos from './Contactanos';
 import Home from './Home';
 import UncontrolledExample from './carousel';
 import Forma from './forma';
+import CentroAyuda from './CentroAyuda';
 
 function App() {
   
@@ -16,12 +17,13 @@ function App() {
     <div className="App">
       <Titulo />
       <Navbar setOpcion={setOpcion} esEstudiante={esEstudiante} setEsEstudiante={setEsEstudiante}/>
-      {opcionSeleccionada === 1 && <UncontrolledExample></UncontrolledExample>}
-      <Home opcion={opcionSeleccionada} esEstudiante={esEstudiante}/>
-      {opcionSeleccionada === 3 && <Forma></Forma>}
-      <TextoContactanos></TextoContactanos>
-
-     
+        {opcionSeleccionada === 0 && <Home opcion={opcionSeleccionada} esEstudiante={esEstudiante}/>}
+        {opcionSeleccionada === 2 && <CentroAyuda esEstudiante={esEstudiante}/>}
+        {opcionSeleccionada === 1 && <UncontrolledExample esEstudiante={esEstudiante}></UncontrolledExample>}
+        {opcionSeleccionada === 3 && <Forma></Forma>}
+      <footer>
+        <TextoContactanos></TextoContactanos>
+      </footer>
     </div>
   );
 }

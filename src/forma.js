@@ -4,10 +4,10 @@ const Forma = () => {
     <div className='forma-box' >
       <div className='forma2'>
         <label> Correo electronico:&nbsp;&nbsp;&nbsp; </label>
-        <input type='text'></input>
+        <input id="inputCorreo" type='text'></input>
       </div>
       <div className='forma3'>
-        <button className='subscribe-button'>
+        <button className='subscribe-button' onClick={() => alert("Te estaremos enviando nuestra informacion en breve" )}>
           SUBSCRIBASE
         </button>
       </div>
