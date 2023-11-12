@@ -34,4 +34,3 @@ const Navbar = ({ setOpcion, esEstudiante, setEsEstudiante }) => {
 }
 
 export default Navbar;
-//tengo que hacer que el set sea 1 o 0 dependiendo de si es padre o hijo

@@ -1,13 +1,30 @@
-.texto{
-    margin-left: 10vw;
-    
-   
-    
+.texto {
+    text-align: justify;
 }
 
-.titulo{
-    margin-top: 4vh;
-    margin-bottom: 2vh;
-    text-align: center;
+.titulo {
     font-weight: bold;
+    text-align: center;
+}
+
+#id {
+    text-align: center;
+}
+
+.titulo_blog {
+    display: flex;
+    justify-content: center;
+}
+
+#blogs img {
+    width: 70%;
+    height: auto;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+.texto_blog {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }

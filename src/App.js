@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <div><Titulo /></div>
+      <Titulo />
       <Navbar setOpcion={setOpcion} esEstudiante={esEstudiante} setEsEstudiante={setEsEstudiante}/>
       {opcionSeleccionada === 1 && <UncontrolledExample></UncontrolledExample>}
       <Home opcion={opcionSeleccionada} esEstudiante={esEstudiante}/>

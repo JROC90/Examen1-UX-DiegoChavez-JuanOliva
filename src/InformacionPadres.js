@@ -1,16 +1,18 @@
 const informacionCienciasComputacionales1 = {
     titulo: "Desbloqueando el Futuro Digital",
-    contenido:
-      "Como padre de un futuro científico de la computación, es esencial " +
-      "comprender el poder transformador de la educación tecnológica. En el " +
-      "paisaje digital en constante evolución de hoy, su hijo emprenderá un viaje " +
-      "para desbloquear los secretos de la codificación, algoritmos y resolución de " +
-      "problemas. Se les equipará con las habilidades para dar forma al futuro, ya " +
-      "sea desarrollando aplicaciones innovadoras, explorando inteligencia artificial " +
-      "o contribuyendo a investigaciones innovadoras en el campo de la Ciencia " +
-      "de la Computación. Únase a nosotros para abrazar las posibilidades ilimitadas " +
-      "que esperan a su hijo en el mundo de la tecnología.",
-    imagen: "https://example.com/imagen1.jpg"
+    contenido: (
+      <>
+        ¡Le damos una cordial bienvenida a nuestro distinguido blog!<br />
+        Explorar el fascinante mundo de la Experiencia de Usuario (UX) es un viaje emocionante, y nos complace sobremanera contar con su presencia. <br />
+        En estas páginas virtuales, nos sumergimos en el universo del diseño centrado en el usuario, la usabilidad y las prácticas que otorgan excepcionalidad a las interacciones digitales.<br />
+        Descubra artículos perspicaces sobre las últimas tendencias en UX, consejos prácticos para mejorar la usabilidad de sus proyectos y entrevistas exclusivas con expertos de la industria. Nuestro objetivo es inspirarlo a crear experiencias significativas y efectivas para sus usuarios.<br />
+        Ya sea usted un diseñador experimentado, un desarrollador curioso o simplemente alguien apasionado por la tecnología y la usabilidad, encontrará contenido relevante y perspicaz que elevará sus habilidades en UX.<br />
+        ¡Prepárese para sumergirse en artículos informativos, descubrir las mejores prácticas de diseño y explorar el emocionante mundo de la UX con nosotros!<br />
+        Agradecemos sinceramente su participación en nuestra comunidad. Juntos, exploraremos el arte de crear experiencias excepcionales.<br />
+        ¡Bienvenido nuevamente!
+      </>
+    ),
+    imagen: "\images\Imagentitulo.jpg"
   };
   
   const informacionCienciasComputacionales2 = {
