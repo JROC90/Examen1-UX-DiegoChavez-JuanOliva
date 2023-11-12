@@ -25,3 +25,13 @@ border: 1px solid rgb(0, 33,71)
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
+
+.contenido{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.parrafo {
+    text-align: center;
+}
